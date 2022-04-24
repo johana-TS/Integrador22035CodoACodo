@@ -90,10 +90,10 @@
     color: #353a40; 
 }
 .contenedor_infoI{
-    width: 70%;
+    width: 75%;
     height: auto;
-    margin: auto; 
-    box-sizing: content-box;
+    margin: auto !important; 
+   
 }
 .contenedor_infoI h5 {
     color: #353a40;;
