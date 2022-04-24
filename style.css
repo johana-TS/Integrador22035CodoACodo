@@ -19,11 +19,13 @@
     font-size: 20px;
     
 }
-.icono_toggler{
-    color:#96c93e;
-    background-color: white;
-    font-size: medium;
-}
+ .icono_toggler{
+    color:#fec901;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #fec901;
+    font-size: large;    
+} 
 .namePage{
     color: white !important;
     font-size: x-large !important;
@@ -52,25 +54,26 @@
     background-color: rgb(55, 55, 55);
     background-blend-mode: soft-light;
     justify-content: right;
+    
     background-size: cover;
     background-position: center;
     padding: 1px;
     
 }
 
-.banner div{
-    color: white;
-}
 .caja_banner{
-    width: 50%;
-    height: 150px;
+   /* width: 50%;*/
+    height: auto;
     justify-content:right;
     text-align: right;
-    margin: 10px 0 0 50%;
-    padding-right: 30px;
+    margin: 10px 0 0 50%; 
+   /* padding-right: 30px;*/
+    justify-content:flex-end;
+    align-items: flex-end ;
+    color: white;
 }
 .banner p{
-    margin-top: 80px ;
+    
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -164,11 +167,18 @@
     align-items:center;
    
 }
-.footer_List li{
+.footer_List li {
     display: inline-block;
     text-align: center;    
     text-decoration: none;
     padding: 10px;
     color: white;
+    
+}
+.footer_List li a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-size: 20px;
     
 }
