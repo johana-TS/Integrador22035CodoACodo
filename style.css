@@ -3,32 +3,46 @@
     width: 95%;
     margin: auto;
     background-color: #353a40;
-    height: 90px;
-    
+    height: auto;
 }
 .encabezado ul li a{
     text-decoration: none;
     align-items: center;
     color: white;
+    font-size: 20px;
+}
+.namePage{
+    color: white !important;
+    font-size: x-large !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+.nav-link:hover{
+    border-radius: 3px;
+    border-bottom:1px solid white;
+    color: white !important;
+}
+.ticket:hover{
+    border-radius: 3px;
+    border:1px solid #2aa444;
+    color: #2aa444 !important;
+}
+/*-------------------cuerpo de informacion-----------------*/
+.banner {
+    height: 500px; 
+    border: 1px solid black;
+    margin: auto;
+    width: 95%;
+    background-image: url(./img/ba1.jpg);
+    background-color: rgb(55, 55, 55);
+    background-blend-mode: soft-light;
+    justify-content: right;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
     
 }
 
-/*-------------------cuerpo de informacion-----------------*/
-.banner {
-    
-    height: 500px; 
-    border: 1px solid black;
- 
-    margin: auto;
-    width: 95%;
-    /* background-color: black;
-    opacity: 0.5; */
-}
-/* .banner_img{
-    background-size: cover;
-    height: 500px;
-    
-} */
 .banner div{
     color: white;
 }
