@@ -1,3 +1,10 @@
+*{
+    /*box-sizing: border-box;*/
+   
+
+}
+
+
 /*-------------------encabezado/ nav-----------------------*/
 .encabezado{
     width: 95%;
@@ -10,6 +17,12 @@
     align-items: center;
     color: white;
     font-size: 20px;
+    
+}
+.icono_toggler{
+    color:#96c93e;
+    background-color: white;
+    font-size: medium;
 }
 .namePage{
     color: white !important;
@@ -17,10 +30,12 @@
     text-align: center !important;
     align-items: center !important;
 }
+
 .nav-link:hover{
     border-radius: 3px;
     border-bottom:1px solid white;
     color: white !important;
+    
 }
 .ticket:hover{
     border-radius: 3px;
@@ -46,9 +61,21 @@
 .banner div{
     color: white;
 }
+.caja_banner{
+    width: 50%;
+    height: 150px;
+    justify-content:right;
+    text-align: right;
+    margin: 10px 0 0 50%;
+    padding-right: 30px;
+}
 .banner p{
-    padding: 30px;
-  
+    margin-top: 80px ;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: auto;
+    
 }
 .btn_orador{
     border-radius: 3px;
@@ -60,7 +87,7 @@
     width: 70%;
     height: auto;
     margin: auto; 
-
+    box-sizing: content-box;
 }
 .contenedor_infoI h5 {
     color: #353a40;;
@@ -83,7 +110,8 @@
     border: 1px solid white;
     color: white;
     border-radius: 5px;
-    margin-left:10px ;    
+    margin-left:10px ;  
+    align-items: center;  
 }
 .btn_conocenos:hover{
     background-color: white;
