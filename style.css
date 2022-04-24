@@ -1,0 +1,126 @@
+/*-------------------encabezado/ nav-----------------------*/
+.encabezado{
+    width: 95%;
+    margin: auto;
+    background-color: #353a40;
+    height: 90px;
+    
+}
+.encabezado ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    
+}
+
+/*-------------------cuerpo de informacion-----------------*/
+.banner {
+    
+    height: 500px; 
+    border: 1px solid black;
+ 
+    margin: auto;
+    width: 95%;
+    /* background-color: black;
+    opacity: 0.5; */
+}
+/* .banner_img{
+    background-size: cover;
+    height: 500px;
+    
+} */
+.banner div{
+    color: white;
+}
+.banner p{
+    padding: 30px;
+  
+}
+.btn_orador{
+    border-radius: 3px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.contenedor_infoI{
+    width: 70%;
+    height: auto;
+    margin: auto; 
+
+}
+.contenedor_infoI h5 {
+    color: #353a40;;
+}
+
+.contenedor_infoII{
+    width: 95%;
+    height: auto;
+    margin: auto; 
+    color: white;
+}
+.contenedor_info div {
+    padding: 1px;
+}
+.contenedor_info div p, h5 {
+    padding: 10px;
+}
+.btn_conocenos{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-left:10px ;    
+}
+.btn_conocenos:hover{
+    background-color: white;
+    border: 1px solid #353a40;
+    color: #353a40; 
+}
+
+.bs_as{
+    background-color: #353a40;
+}
+
+/*------------------formulario----------------------------*/
+.contenedor_form{
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+.btn_Color{
+    background-color: #96c93e;
+    color: white;
+}
+.text_form{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*--------------------------Footer-------------------------*/
+.contenedor_Footer{
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    background-color: #1d506d;
+    border-radius: 3px;
+}
+
+.footer_List{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+.footer_List li{
+    display: inline-block;
+    text-align: center;    
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+}
