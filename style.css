@@ -61,13 +61,8 @@
     background-position: center;
     padding: 1px;
     
-} */
-#carouselExampleSlidesOnly img{
-    background-color: rgb(55, 55, 55) !important;
-    background-blend-mode: soft-light !important;
 }
-
-/* .caja_banner{
+ .caja_banner{
    /* width: 50%;
     height: auto;
     justify-content:right;
@@ -119,6 +114,7 @@
     margin: auto; 
     color: white;
 }
+
 .contenedor_info div {
     padding: 1px;
 }
