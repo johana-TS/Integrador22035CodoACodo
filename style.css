@@ -1,16 +1,12 @@
-*{
-    /*box-sizing: border-box;*/
-   
 
-}
 
 
 /*-------------------encabezado/ nav-----------------------*/
 .encabezado{
-    width: 95%;
     margin: auto;
     background-color: #353a40;
     height: auto;
+    
 }
 .encabezado ul li a{
     text-decoration: none;
@@ -18,6 +14,12 @@
     color: white;
     font-size: 20px;
     
+}
+#navbarNavAltMarkup a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-size: 20px; 
 }
  .icono_toggler{
     color:#fec901;
@@ -45,7 +47,7 @@
     color: #2aa444 !important;
 }
 /*-------------------cuerpo de informacion-----------------*/
-.banner {
+/* .banner {
     height: 500px; 
     border: 1px solid black;
     margin: auto;
@@ -59,27 +61,36 @@
     background-position: center;
     padding: 1px;
     
+} */
+#carouselExampleSlidesOnly img{
+    background-color: rgb(55, 55, 55) !important;
+    background-blend-mode: soft-light !important;
 }
 
-.caja_banner{
-   /* width: 50%;*/
+/* .caja_banner{
+   /* width: 50%;
     height: auto;
     justify-content:right;
     text-align: right;
     margin: 10px 0 0 50%; 
-   /* padding-right: 30px;*/
+   /* padding-right: 30px;
     justify-content:flex-end;
     align-items: flex-end ;
     color: white;
-}
-.banner p{
+} */
+
+.banner-txt{
     
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: auto;
+    text-align: right;
+    margin-top: 20px;
+    font-size:x-large;
     
 }
+
 .btn_orador{
     border-radius: 3px;
     color: white;
