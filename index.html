@@ -12,63 +12,85 @@
 </head>
 <body>
     <header class="encabezado  ">
-        <nav class="navbar navbar-expand-lg "  >
-            <div class="container-fluid ">
-                <a class="navbar-brand namePage" href="#">
-                    <img src="/img/codoacodo.png" alt="" width="120px" height="auto" class="d-inline-block align-text-top">
-                    Bootstrap
-                </a>
-                <button class=" icono_toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <!--<i class="bi bi-card-list"></i> -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
-                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
-                  </svg>
-                </button>
-              <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Los Oradores</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">El lugar y la fecha</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#" >Conviertete en Orador</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link ticket" href="#" style="color: #2aa444;">Comprar Tickets</a>
-                      </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/img/codoacodo.png" alt="" width="120px" height="auto" class="d-inline-block align-text-top">
+                Bootstrap
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav align-items-center">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">La Conferencia</a>
+                  <a class="nav-link" href="#oradoresList">Los Oradores</a>
+                  <a class="nav-link" href="#sitioHs">Lugar y Fecha</a>
+                  <a class="nav-link" href="#conviertete">Conviertete en Orador</a>
+                  <a class="nav-link ticket" style="color: #2aa444;" href="#">Comprar Tickets</a>
+                </div>
               </div>
             </div>
           </nav>
-      
   
     </header>
-    <div class="banner px-4 container-fluid-sm ">
-       
-        <div class="text-end  caja_banner container-fluid-sm  col-sm-4">
-            <h5 class="text-end ">Conf Bs As</h5>
-            <p class="row-sm mt-4" >Bs As llega por primera vez a Argentina Un evento para compartir con nuestra comunidad
-                el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a concoer 
-                a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
-                para ti. Te esperamos!
-
-            </p>
-            <div class="text-end px-4 mt-4 container-fluid-sm ">
-                <button type="button" class="btn_orador"> Quiero ser Orador</button>
-                <button type="button" class="btn btn-success">Comprar Tickets</button>
+   
+    <div class="container-fluid-sm" >
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+              <div class="carousel-item active" data-bs-interval="3500">
+                <img src="./img/ba1.jpg" class="d-block w-100" alt="..." style="background-color: rgb(55, 55, 55);
+                background-blend-mode: soft-light;">
+                <div class="carousel-caption d-none d-sm-block banner-txt" >
+                    
+                    <h2 class="text-end">Cof Bs As </h2>
+                    <p class="banner-txt text-end">Bs As llega por primera vez a Argentina Un evento para compartir con nuestra comunidad
+                        el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a concoer 
+                        a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
+                        para ti. Te esperamos!</p>
+                        <div class="text-end px-4 mt-4 container-fluid-sm ">
+                            <button type="button" class="btn_orador"> Quiero ser Orador</button>
+                            <button type="button" class="btn btn-success">Comprar Tickets</button>
+                        </div>
+                </div>
+              </div>   
+            
+              <div class="carousel-item" data-bs-interval="3500">
+                <img src="./img/ba2.jpg" class="d-block w-100" alt="..." style="background-color: rgb(55, 55, 55) !important;
+                background-blend-mode: soft-light !important;">
+                <div class="carousel-caption d-none d-sm-block  banner-txt" >
+                    <h2 class="text-end">Cof Bs As </h2>
+                    <p class="text-end">Bs As llega por primera vez a Argentina Un evento para compartir con nuestra comunidad
+                        el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a concoer 
+                        a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
+                        para ti. Te esperamos!</p>
+                        <div class="text-end px-4 mt-4 container-fluid-sm ">
+                            <button type="button" class="btn_orador"> Quiero ser Orador</button>
+                            <button type="button" class="btn btn-success">Comprar Tickets</button>
+                        </div>
+                </div>
+               </div>
+              <div class="carousel-item">
+                <img src="./img/ba3.jpg" class="d-block w-100" alt="..." style="background-color: rgb(55, 55, 55) !important;
+                background-blend-mode: soft-light !important;">
+                <div class="carousel-caption d-none d-sm-block  banner-txt" >
+                    <h2 class="texte-end">Cof Bs As </h2>
+                    <p  class="texte-end">Bs As llega por primera vez a Argentina Un evento para compartir con nuestra comunidad
+                        el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a concoer 
+                        a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
+                        para ti. Te esperamos!</p>
+                        <div class="text-end px-4 mt-4 container-fluid-sm ">
+                            <button type="button" class="btn_orador"> Quiero ser Orador</button>
+                            <button type="button" class="btn btn-success">Comprar Tickets</button>
+                        </div>
+                </div>
+              </div>
             </div>
-        
-
         </div>
     </div>
 
-    <div class="row contenedor_infoI  mb-4 container-fluid-sm  justify-content-center">
+    <div class="row contenedor_infoI  mb-4 container-fluid-sm  justify-content-center" id="oradoresList">
         <div class="row text_form">
             <p class="small">CONOCE A LOS</p>
             <h5 class="fs-2">ORADORES</h5>
@@ -107,7 +129,7 @@
             </div>
          </div>
     </div>
-    <div class="row contenedor_infoII container-fluid justify-content-center">
+    <div class="row contenedor_infoII container-fluid justify-content-center" id="sitioHs">
         <div class="col-sm-6">
             <img src="./img/honolulu.jpg" alt="Imagen de honolulu" class="img-fluid">
         </div>
@@ -119,7 +141,7 @@
         </div>
     </div>
 
-    <div class="contenedor_form mb-4 mt-4">
+    <div class="contenedor_form mb-4 mt-4" id="conviertete">
             <div class="text_form">
                 <p class="small">CONVIERTETE EN UN </p>
                 <p class="fs-2"> <strong> ORADOR</strong></p>
