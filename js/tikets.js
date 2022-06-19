@@ -54,8 +54,6 @@ var precio=200, descuento, totalAPagar;
                     const element = opciones[key];
                     
                     if (element.value==='Estudiante' && element.selected){
-                        console.log(element.index);
-                        console.log(element.value);
                         descuento=precio*0.80;                       
                         totalAPagar= (precio-descuento)* cantidad.value;                       
                         document.getElementById('montoTotal').innerText=totalAPagar;                        
