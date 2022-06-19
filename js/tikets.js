@@ -4,10 +4,7 @@ var opciones= document.querySelectorAll('option');
 var btn_resumen= document.getElementById('btn_resumen');
 var btn_borrar= document.getElementById('btn_reset');
 var cantidad= document.getElementById('cantidad');
-   
-console.log(categoria.selectedIndex);
-    
-    console.log(opciones);   
+      
 
 function validar_email(e){
     
